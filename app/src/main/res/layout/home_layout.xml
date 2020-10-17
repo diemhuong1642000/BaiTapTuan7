@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:background="#41FF9940">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@color/colorLayerBack">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:gravity="center"
+                android:background="@drawable/firstlayer">
+
+                <ImageView
+                    android:layout_marginTop="50dp"
+                    android:layout_marginBottom="20dp"
+                    android:layout_width="300px"
+                    android:layout_height="300px"
+                    android:src="@drawable/learning"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="22sp"
+                    android:textStyle="bold"
+                    android:fontFamily="serif"
+                    android:text="Tăng Thị  Diễm Hương"
+                    android:textColor="#171716"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="18sp"
+                    android:textStyle="normal"
+                    android:text="diemhuong@gmail.com"
+                    android:layout_marginBottom="50px"
+                    android:layout_marginTop="5px"
+                    android:textColor="@color/colorSubTitle"
+                    />
+
+
+        </LinearLayout>
+    </LinearLayout>
+          <LinearLayout
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:orientation="horizontal"
+              android:paddingLeft="50px"
+              android:paddingTop="50px"
+              android:paddingBottom="50px"
+              android:gravity="center"
+              android:background="#41FF9940">
+
+          <LinearLayout
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:gravity="center"
+              android:orientation="vertical"
+             >
+              <TextView
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:text="20k"
+                  android:textSize="20sp"
+                  android:textStyle="bold"
+                  android:textColor="#536DFE"/>
+
+              <TextView
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:text="Bạn bè"
+                  android:textSize="18sp"
+                  android:textStyle="normal"
+                  android:textColor="@color/colorSubTitleWhite"/>
+          </LinearLayout>
+              <View
+                  android:layout_width="1px"
+                  android:layout_height="match_parent"
+                  android:layout_marginLeft="20px"
+                  android:layout_marginRight="20px"
+                  android:background="#1E1D1D"/>
+              <LinearLayout
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:gravity="center"
+                  android:orientation="vertical">
+                  <TextView
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:text="5k"
+                      android:textSize="20sp"
+                      android:textStyle="bold"
+                      android:textColor="#536DFE"/>
+
+                  <TextView
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:text="Thích"
+                      android:textSize="18sp"
+                      android:textStyle="normal"
+                      android:textColor="@color/colorSubTitleWhite"/>
+              </LinearLayout>
+              <View
+                  android:layout_width="1px"
+                  android:layout_height="match_parent"
+                  android:layout_marginLeft="20px"
+                  android:layout_marginRight="20px"
+                  android:background="#1C1B1B"/>
+              <LinearLayout
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:gravity="center"
+                  android:orientation="vertical">
+                  <TextView
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:text="10k"
+                      android:textSize="20sp"
+                      android:textStyle="bold"
+                      android:textColor="#536DFE"/>
+
+                  <TextView
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:text="Theo dõi"
+                      android:textSize="18sp"
+                      android:textStyle="normal"
+                      android:textColor="@color/colorSubTitleWhite"/>
+              </LinearLayout>
+
+          </LinearLayout>
+        <LinearLayout
+            android:paddingTop="50px"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="120px">
+
+         <LinearLayout
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:orientation="vertical">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#131313"
+                android:text="Địa chỉ"
+                android:textStyle="bold"
+                android:textSize="20sp"/>
+             <TextView
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:textColor="#0C0C0C"
+                 android:text="Đại Hồng - Đại Lộc - Quảng Nam"
+                 android:textStyle="normal"
+                 android:textSize="18sp"/>
+
+        </LinearLayout>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1px"
+                android:layout_marginTop="10px"
+                android:layout_marginRight="20px"
+                android:layout_marginBottom="10px"
+                android:background="#F3E9E9"/>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="#131313"
+                    android:text="Số điện thoại"
+                    android:textStyle="bold"
+                    android:textSize="20sp"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="#131313"
+                    android:text="0383514412"
+                    android:textStyle="normal"
+                    android:textSize="18sp"/>
+
+            </LinearLayout>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1px"
+                android:layout_marginTop="10px"
+                android:layout_marginRight="20px"
+                android:layout_marginBottom="10px"
+                android:background="#F3E9E9"/>
+
+        </LinearLayout>
+</LinearLayout>
+</RelativeLayout>
